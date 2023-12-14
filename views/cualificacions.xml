@@ -3,7 +3,7 @@
         <record model="ir.actions.act_window" id="cualificacions_list_action">
             <field name="name">cualificacions</field>
             <field name="res_model">lago_javier.cualificacions</field>
-            <field name="view_mode">tree,form,graph,pivot</field>
+            <field name="view_mode">tree,form,graph,pivot,search</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     Tienes que crear el primer registro
@@ -63,6 +63,21 @@
                     <field name="curso"/>
                     <field name="modulo"/>
                 </pivot>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="informacion_search_view">
+            <field name="name">informacion.search</field>
+            <field name="model">lago_javier.cualificacions</field>
+            <field name="arch" type="xml">
+                <search string="searchando">
+                   <field name="apelidos"/>
+                    <field name="nome"/>
+                    <field name="ano"/>
+                    <field name="ciclo"/>
+                    <field name="quenda"/>
+                    <field name="curso"/>
+                    <field name="modulo"/>
+                </search>
             </field>
         </record>
 
