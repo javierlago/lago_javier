@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_lago_javier_lago_javier,cualificacions,model_lago_javier_cualificacions,base.group_user,1,1,1,1

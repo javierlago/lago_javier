@@ -1,0 +1,5 @@
+<odoo>
+    <data>
+        <menuitem id="main_lago_javier" name="Cualificacions Lago Amoedo" action="cualificacions_list_action"/>
+    </data>
+</odoo>
